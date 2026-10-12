@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="tile">
+      <rect x="40" y="40" width="944" height="944" rx="196"/>
+    </clipPath>
+  </defs>
+
+  <!-- paper tile -->
+  <rect x="40" y="40" width="944" height="944" rx="196" fill="#F3E9D2"/>
+
+  <g clip-path="url(#tile)">
+    <!-- the screen: one block of ink, the only vermilion inside it -->
+    <rect x="236" y="176" width="552" height="300" rx="44" fill="#16130F"/>
+    <path d="M458 254 L458 398 L578 326 Z" fill="#E0432A" stroke="#E0432A" stroke-width="22" stroke-linejoin="round"/>
+    <!-- gouge marks along the screen's lower lip -->
+    <path d="M296 440 H392 M424 440 H470" stroke="#F3E9D2" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- back row: two heads tucked behind -->
+    <g fill="#16130F">
+      <circle cx="392" cy="628" r="78"/>
+      <rect x="360" y="628" width="64" height="220"/>
+      <circle cx="632" cy="628" r="78"/>
+      <rect x="600" y="628" width="64" height="220"/>
+    </g>
+
+    <!-- front row: three heads, each cut free by a paper gutter -->
+    <g fill="#16130F" stroke="#F3E9D2" stroke-width="18">
+      <path d="M100 1040 C100 860 166 800 272 800 C378 800 444 860 444 1040 Z"/>
+      <circle cx="272" cy="712" r="96"/>
+      <path d="M580 1040 C580 860 646 800 752 800 C858 800 924 860 924 1040 Z"/>
+      <circle cx="752" cy="712" r="96"/>
+      <path d="M340 1040 C340 860 406 800 512 800 C618 800 684 860 684 1040 Z"/>
+      <circle cx="512" cy="712" r="96"/>
+    </g>
+
+    <!-- carved highlights: light nicked into crowns and shoulders -->
+    <g fill="none" stroke="#F3E9D2" stroke-width="12" stroke-linecap="round">
+      <path d="M214 680 A66 66 0 0 1 252 642"/>
+      <path d="M454 680 A66 66 0 0 1 492 642"/>
+      <path d="M694 680 A66 66 0 0 1 732 642"/>
+      <path d="M170 900 C180 868 198 850 222 840"/>
+      <path d="M410 900 C420 868 438 850 462 840"/>
+    </g>
+
+    <!-- one voice from the crowd: a typing bubble -->
+    <path d="M770 452 H894 A38 38 0 0 1 932 490 V522 A38 38 0 0 1 894 560 H826 L796 590 L800 560 H770 A38 38 0 0 1 732 522 V490 A38 38 0 0 1 770 452 Z" fill="#E0432A"/>
+    <g fill="#F3E9D2">
+      <circle cx="790" cy="506" r="13"/>
+      <circle cx="832" cy="506" r="13"/>
+      <circle cx="874" cy="506" r="13"/>
+    </g>
+  </g>
+
+  <!-- the frame: heavy, printed like a sticker edge -->
+  <rect x="58" y="58" width="908" height="908" rx="180" fill="none" stroke="#16130F" stroke-width="36"/>
+</svg>
